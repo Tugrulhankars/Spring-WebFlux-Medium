@@ -1,0 +1,13 @@
+package org.example.reactiveuserapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ReactiveUserAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ReactiveUserAppApplication.class, args);
+	}
+
+}
